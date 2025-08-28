@@ -1,7 +1,7 @@
 ﻿{
-  "SiteName": "My ASD Site",
+  "SiteName": "The Vape Review Hub",
   "StoreUrl": "https://example.com/",
-  "Description": "Clean static sites with ASD.",
-  "BaseUrl": "https://maestro-uchiha.github.io/my-new-asd-site/",
+  "Description": "Welcome to the Vape Review Hub.",
+  "BaseUrl": "https://the-vape-review-hub.vercel.app/",
   "author": { "name": "Maestro" }
 }
