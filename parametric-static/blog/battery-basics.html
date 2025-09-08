@@ -1,0 +1,285 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<link rel="canonical" href="https://the-vape-review-hub.vercel.app/blog/battery-basics.html">
+
+<meta name="robots" content="index,follow">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Battery basics | The Vape Review Hub</title>
+  <meta name="description" content="Batteries are the quiet engine of every vape. Understand a few core terms and habits, and you’ll get better performance, longer life, and safer daily use|withou">
+  <meta name="author" content="Maestro">
+<!-- Open Graph -->
+  <meta property="og:title" content="Battery basics | The Vape Review Hub">
+  <meta property="og:description" content="Batteries are the quiet engine of every vape. Understand a few core terms and habits, and you’ll get better performance, longer life, and safer daily use|withou">
+<meta property="og:image" content="https://the-vape-review-hub.vercel.app/assets/img/og.jpeg">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="../assets/favicon.ico">
+
+  <!-- Early theme boot (prevents flash) -->
+  <script>
+    (function () {
+      try {
+        var key = 'asd-theme';
+        var saved = localStorage.getItem(key);
+        var theme = saved ? saved : (
+          window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        );
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="../assets/css/style.css">
+<link rel="alternate" type="application/rss+xml"  title="The Vape Review Hub RSS"  href="../feed.xml">
+  <link rel="alternate" type="application/atom+xml" title="The Vape Review Hub Atom" href="../atom.xml">
+</head>
+<body>
+  <header>
+    <div><a href="../index.html">The Vape Review Hub</a></div>
+
+    <!-- Mobile toggle -->
+    <button id="navToggle" class="nav-toggle"
+            aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+
+    <nav id="site-nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../blog/">Blog</a></li>
+        <li><a href="../search.html">Search</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="../legal/privacy.html">Privacy</a></li>
+        <li><a href="../legal/terms.html">Terms</a></li>
+        <li><a href="../sitemap.html">Sitemap</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- KEEP CONTENT ON ONE LINE TO AVOID WHITESPACE GROWTH -->
+  <main><article class="post">
+  <nav class="breadcrumbs">
+    <a href="../index.html">Home</a> › <a href="../blog/">Blog</a> › Battery basics
+  </nav>
+
+  <h1>Battery basics</h1>
+  <p class="byline">
+    <span>By Maestro</span>
+    <span class="byline-dot">•</span>
+    <time datetime="2025-09-08">September 8, 2025</time>
+    <span class="byline-dot">•</span>
+    <span class="muted">~8 min read</span>
+  </p>
+
+  <nav class="toc">
+    <ol>
+      <li><a href="#what-battery-types-vapes-use">What battery types vapes use</a></li>
+      <li><a href="#sizes-and-chemistries">Sizes and chemistries</a></li>
+      <li><a href="#specs-that-matter">Specs that matter</a></li>
+      <li><a href="#ohms-law-and-safe-wattage">Ohm’s law and safe wattage</a></li>
+      <li><a href="#single-vs-dual-battery-mods">Single vs. dual‑battery mods</a></li>
+      <li><a href="#charging-smart">Charging smart</a></li>
+      <li><a href="#handling-storage-and-travel">Handling, storage, and travel</a></li>
+      <li><a href="#choosing-the-right-cell">Choosing the right cell</a></li>
+      <li><a href="#lifespan-and-when-to-retire">Lifespan and when to retire</a></li>
+      <li><a href="#quick-reference">Quick reference</a></li>
+    </ol>
+  </nav>
+
+  <p>Batteries are the quiet engine of every vape. Understand a few core terms and habits, and you’ll get better performance, longer life, and safer daily use|without becoming an electrical engineer.</p>
+
+  <h2 id="what-battery-types-vapes-use">What battery types vapes use <a class="h-anchor" href="#what-battery-types-vapes-use">#</a></h2>
+  <p>Most modern devices use <strong>rechargeable lithium‑ion</strong> cells. You’ll encounter two categories:</p>
+  <ul>
+    <li><strong>Built‑in (internal) batteries:</strong> Non‑removable packs charged via USB‑C. Simple and tidy.</li>
+    <li><strong>Removable cylindrical cells:</strong> High‑drain cells like <em>18650, 20700, 21700</em> placed in a battery sled. More flexible and often longer‑lasting.</li>
+  </ul>
+  <p>Stick to what your device is designed for|never improvise sizes or chemistries.</p>
+
+  <h2 id="sizes-and-chemistries">Sizes and chemistries <a class="h-anchor" href="#sizes-and-chemistries">#</a></h2>
+  <p>Common removable sizes (numbers are diameter × length in mm):</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Size</th>
+        <th>Typical capacity range</th>
+        <th>Typical CDR range</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>18650</td>
+        <td>2000|3000&nbsp;mAh</td>
+        <td>15|25&nbsp;A</td>
+        <td>Lightweight; common in compact mods</td>
+      </tr>
+      <tr>
+        <td>20700</td>
+        <td>3000|4000&nbsp;mAh</td>
+        <td>20|30&nbsp;A</td>
+        <td>Less common than 21700 today</td>
+      </tr>
+      <tr>
+        <td>21700</td>
+        <td>4000|5000&nbsp;mAh</td>
+        <td>20|30&nbsp;A</td>
+        <td>Great blend of capacity and current</td>
+      </tr>
+    </tbody>
+  </table>
+  <p><strong>Chemistry labels</strong> you might see include <em>INR/NMC</em> and <em>IMR</em>|both are appropriate for high‑drain use when honestly rated. Avoid “ultra‑high capacity” claims that also promise very high amps in small sizes; that combo doesn’t exist.</p>
+
+  <h2 id="specs-that-matter">Specs that matter <a class="h-anchor" href="#specs-that-matter">#</a></h2>
+  <ul>
+    <li><strong>Nominal voltage:</strong> 3.6|3.7&nbsp;V per cell (full at ~4.2&nbsp;V, empty near 3.0&nbsp;V under light load).</li>
+    <li><strong>Capacity (mAh):</strong> How much energy the cell stores. More mAh = longer runtime, but often <em>lower</em> current capability in the same size.</li>
+    <li><strong>CDR (continuous‑discharge rating):</strong> The safe, sustained current limit without overheating. <em>Use CDR|not “pulse”|for decisions.</em></li>
+    <li><strong>Internal resistance / voltage sag:</strong> Lower resistance sags less under load, feeling snappier at the same wattage.</li>
+  </ul>
+
+  <h2 id="ohms-law-and-safe-wattage">Ohm’s law and safe wattage <a class="h-anchor" href="#ohms-law-and-safe-wattage">#</a></h2>
+  <p>You don’t need the full textbook, just the essentials:</p>
+  <pre><code>I = P ÷ V  (current in amps = watts ÷ battery voltage)
+P = V × I  (watts = volts × amps)
+</code></pre>
+  <p>In a <em>regulated</em> mod, the board steps voltage up or down. A conservative way to estimate the <strong>max safe wattage</strong> from your batteries is to use the <em>minimum voltage under load</em> (≈3.2&nbsp;V), your cells’ <em>CDR</em>, and ~90% efficiency:</p>
+  <pre><code>Max W per cell ≈ CDR × 3.2 V × 0.9
+Dual‑cell series ≈ 2 × (CDR × 3.2 V × 0.9)
+</code></pre>
+  <p><em>Example:</em> With 20&nbsp;A cells: per‑cell ≈ 20 × 3.2 × 0.9 ≈ <strong>58&nbsp;W</strong>. A dual‑cell series mod ≈ <strong>116&nbsp;W</strong> total. Staying below this keeps battery current within CDR.</p>
+  <p>For <em>mechanical/unregulated</em> devices, additional knowledge and safety practices are required; this guide focuses on regulated devices most beginners use.</p>
+
+  <h2 id="single-vs-dual-battery-mods">Single vs. dual‑battery mods <a class="h-anchor" href="#single-vs-dual-battery-mods">#</a></h2>
+  <ul>
+    <li><strong>Single‑battery:</strong> Smaller, lighter, great up to moderate wattage. Expect more frequent charging.</li>
+    <li><strong>Dual‑battery (series):</strong> Higher safe wattage ceiling and longer runtime. Use <em>married pairs</em> (same model/age) and rotate together.</li>
+    <li><strong>Parallel setups:</strong> Share current between cells but still demand matched, healthy batteries.</li>
+  </ul>
+
+  <h2 id="charging-smart">Charging smart <a class="h-anchor" href="#charging-smart">#</a></h2>
+  <ul>
+    <li>Use the supplied cable or a quality, standards‑compliant USB‑C cable and charger.</li>
+    <li>For dual‑battery mods, a reputable <strong>external charger</strong> improves balancing and longevity.</li>
+    <li>Charge on a hard, non‑flammable surface with airflow. Avoid covering chargers.</li>
+    <li>Unplug when full. Warm is normal; <em>hot</em> is a stop sign|disconnect and inspect.</li>
+  </ul>
+
+  <h2 id="handling-storage-and-travel">Handling, storage, and travel <a class="h-anchor" href="#handling-storage-and-travel">#</a></h2>
+  <ul>
+    <li>Never carry loose cells with keys or coins. Use a <strong>plastic battery case</strong> or silicone sleeves.</li>
+    <li>Inspect wraps and the top insulator ring regularly; rewrap immediately if damaged.</li>
+    <li>Avoid extreme temperatures. Don’t leave devices in hot cars or in freezing conditions.</li>
+    <li>For long‑term storage, leave cells at ~30|50% charge in a cool, dry place and check every few months.</li>
+    <li>Airline and venue rules vary|<strong>check current policies</strong> before travel, and transport spare cells in carry‑on, not in checked baggage.</li>
+  </ul>
+
+  <h2 id="choosing-the-right-cell">Choosing the right cell <a class="h-anchor" href="#choosing-the-right-cell">#</a></h2>
+  <ol>
+    <li><strong>Pick a wattage target</strong> based on your tank/coil (e.g., 40|60&nbsp;W for many DL tanks; 10|20&nbsp;W for MTL).</li>
+    <li><strong>Back‑solve the current</strong> using the rule above. Ensure your chosen cell’s <em>CDR</em> comfortably supports it.</li>
+    <li><strong>Then optimize capacity</strong> (mAh) within that safe current range for longer runtime.</li>
+    <li><strong>Buy from trusted retailers</strong> and known OEM models. Be skeptical of specs that look too good to be true.</li>
+  </ol>
+
+  <h2 id="lifespan-and-when-to-retire">Lifespan and when to retire <a class="h-anchor" href="#lifespan-and-when-to-retire">#</a></h2>
+  <ul>
+    <li>Typical lifespan is <strong>200|500 full cycles</strong> depending on usage and care.</li>
+    <li>Retire and recycle any cell with torn wraps you can’t immediately rewrap, missing top ring, dents, swelling, rust, leaks, or a history of hard short.</li>
+    <li>Noticeable capacity crash or one cell in a pair drifting regularly are signs it’s time to replace.</li>
+  </ul>
+
+  <h2 id="quick-reference">Quick reference <a class="h-anchor" href="#quick-reference">#</a></h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Do</th>
+        <th>Don’t</th>
+        <th>Why</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Match wattage to your cells’ CDR</td>
+        <td>Rely on “pulse” ratings</td>
+        <td>CDR is the safety limit; pulses are undefined</td>
+      </tr>
+      <tr>
+        <td>Use married pairs in dual‑battery mods</td>
+        <td>Mix different brands/ages</td>
+        <td>Imbalances stress cells and boards</td>
+      </tr>
+      <tr>
+        <td>Carry spares in a plastic case</td>
+        <td>Carry loose with metal objects</td>
+        <td>Prevents short circuits in pockets/bags</td>
+      </tr>
+      <tr>
+        <td>Charge on hard surfaces with airflow</td>
+        <td>Charge under pillows or on couches</td>
+        <td>Heat needs to dissipate safely</td>
+      </tr>
+      <tr>
+        <td>Buy from trusted retailers</td>
+        <td>Chase unrealistic specs</td>
+        <td>Counterfeits and rewraps are common</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="back-blog"><a href="../blog/">← Back to Blog</a></div>
+<div class="post-nav"><a class="prev" href="../blog/battery-safety-myths.html"><span>← Battery safety myths | The Vape Review Hub</span></a><span></span><a class="next" href="../blog/pods-vs-mods.html"><span>Pods vs. mods | The Vape Review Hub →</span></a></div><div class="related"><h2>Suggested posts</h2><ul class="posts"><li><a href="../blog/battery-safety-myths.html">Battery safety myths | The Vape Review Hub</a><small> | 2025-09-08</small></li><li><a href="../blog/choosing-your-first-vape.html">Choosing your first vape | The Vape Review Hub</a><small> | 2025-09-08</small></li><li><a href="../blog/pods-vs-mods.html">Pods vs. mods | The Vape Review Hub</a><small> | 2025-09-08</small></li></ul></div></article></main>
+
+  <footer>
+    <p>
+      <a href="../index.html">Home</a> |
+      <a href="../blog/">Blog</a> |
+      <a href="../search.html">Search</a> |
+      <a href="../about.html">About</a> |
+      <a href="../contact.html">Contact</a> |
+      <a href="../legal/privacy.html">Privacy</a> |
+      <a href="../legal/terms.html">Terms</a> |
+      <a href="../sitemap.html">Sitemap</a>
+    </p>
+    <p>&copy; 2025 The Vape Review Hub. All rights reserved.</p>
+  </footer>
+
+  <!-- Single rectangular theme toggle -->
+  <button
+    class="asd-theme-toggle"
+    id="asd-theme-toggle"
+    type="button"
+    title="Toggle theme"
+    aria-label="Toggle theme"
+    onclick="(function(d){var k='asd-theme';var cur=d.getAttribute('data-theme')||'light';var nxt=(cur==='dark'?'light':'dark');d.setAttribute('data-theme',nxt);try{localStorage.setItem(k,nxt);}catch(e){} })(document.documentElement)">
+    🌙 / ☀
+  </button>
+
+  <script>
+    /* Mobile menu */
+    (function () {
+      var btn = document.getElementById('navToggle');
+      var nav = document.getElementById('site-nav');
+      if (!btn || !nav) return;
+
+      function set(open) {
+        btn.setAttribute('aria-expanded', open);
+        nav.classList.toggle('open', open);
+        btn.classList.toggle('is-active', open);
+      }
+      btn.addEventListener('click', function () { set(btn.getAttribute('aria-expanded') !== 'true'); });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') set(false); });
+      nav.addEventListener('click', function (e) { if (e.target && e.target.tagName === 'A') set(false); });
+    })();
+  </script>
+</body>
+</html>
+
