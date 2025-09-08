@@ -2,14 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>The Vape Review Hub</title>
   <id>https://the-vape-review-hub.vercel.app/</id>
-  <updated>2025-09-08T11:08:46Z</updated>
+  <updated>2025-09-08T11:24:00Z</updated>
   <link rel="self" href="https://the-vape-review-hub.vercel.app/atom.xml"/>
-  <entry>
-    <title>Nicotine strengths decoded | The Vape Review Hub</title>
-    <link href="https://the-vape-review-hub.vercel.app/blog/nicotine-strengths-decoded.html"/>
-    <id>https://the-vape-review-hub.vercel.app/blog/nicotine-strengths-decoded.html</id>
-    <updated>2025-09-07T23:00:00Z</updated>
-  </entry>
   <entry>
     <title>Coil longevity face‑off: mesh vs. parallel | The Vape Review Hub</title>
     <link href="https://the-vape-review-hub.vercel.app/blog/coil-longevity-face-off-mesh-vs-parallel.html"/>
@@ -17,9 +11,21 @@
     <updated>2025-09-07T23:00:00Z</updated>
   </entry>
   <entry>
-    <title>Battery safety myths</title>
+    <title>Nicotine strengths decoded | The Vape Review Hub</title>
+    <link href="https://the-vape-review-hub.vercel.app/blog/nicotine-strengths-decoded.html"/>
+    <id>https://the-vape-review-hub.vercel.app/blog/nicotine-strengths-decoded.html</id>
+    <updated>2025-09-07T23:00:00Z</updated>
+  </entry>
+  <entry>
+    <title>Battery safety myths | The Vape Review Hub</title>
     <link href="https://the-vape-review-hub.vercel.app/blog/battery-safety-myths.html"/>
     <id>https://the-vape-review-hub.vercel.app/blog/battery-safety-myths.html</id>
+    <updated>2025-09-07T23:00:00Z</updated>
+  </entry>
+  <entry>
+    <title>Choosing your first vape</title>
+    <link href="https://the-vape-review-hub.vercel.app/blog/choosing-your-first-vape.html"/>
+    <id>https://the-vape-review-hub.vercel.app/blog/choosing-your-first-vape.html</id>
     <updated>2025-09-07T23:00:00Z</updated>
   </entry>
 </feed>
